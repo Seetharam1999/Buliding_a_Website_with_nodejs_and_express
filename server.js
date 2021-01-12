@@ -10,3 +10,4 @@ app.get("/",(req,res)=>{
 app.listen(3000,(req,res)=>{
   console.log("this server runing on the port is 3000");
 })
+module.exports=app;
